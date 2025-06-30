@@ -2,7 +2,16 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+import sklearn
+import sklearn.compose._column_transformer
 
+# Manually add a dummy _RemainderColsList to avoid error
+class _RemainderColsList(list):
+    pass
+
+sklearn.compose._column_transformer._RemainderColsList = _RemainderColsList
+
+import pickle
 with open('heart_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
