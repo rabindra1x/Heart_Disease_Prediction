@@ -46,3 +46,8 @@ Identified key features contributing to heart disease risk.
 
 # Conclusion
 This project demonstrates a complete machine learning pipeline for heart disease prediction, showcasing how careful preprocessing, exploratory analysis, and model comparison can lead to effective and interpretable results.
+
+
+# Screenshot
+![image](https://github.com/user-attachments/assets/885a711f-4c43-45a0-b215-0529c8a04325)
+
